@@ -62,7 +62,7 @@ client.on('message' , roleup => {
         console.log('RoleUp déclanché')
         if (roleup.member.roles.find('name' , 'Joueurs')) {
             roleup.reply("Pour te connecter utilise l'ip que je t'ai envoyé en MP 😉")
-            roleup.author.sendMessage("Voici l'IP: 8************888******")
+            roleup.author.sendMessage("***Voici l'IP:*** ``8************888******``")
         }
         else {
             roleup.reply("Tu n'a pas la permission d'avoir l'IP!");
