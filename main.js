@@ -13,7 +13,7 @@ client.on('message', message => {
     }
     if (message.content === "/help" && "!help") {
         message.channel.send({"embed": {
-            "title": "-----------------------------------------------------------------------------",
+            "title": "▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬",
             "description": "Menu D'aide (/help)",
             "color": 8344221,
             "footer": {
